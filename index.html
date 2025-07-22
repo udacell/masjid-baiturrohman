@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Masjid Baiturrohman Ngantang</title>
+  <title>Masjid Baiturrohman</title>
   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
   <style>
     body {
@@ -19,15 +19,14 @@
       background-repeat: no-repeat;
       background-position: center top;
       background-size: cover;
-      height: 260px;
+      height: 200px;
       color: white;
-      text-align: center;
       position: relative;
       border-bottom: 4px solid white;
       display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
+      justify-content: flex-start;
+      align-items: flex-end;
+      padding: 20px;
     }
     header::before {
       content: "";
@@ -39,11 +38,15 @@
       background: rgba(0, 0, 0, 0.4);
       z-index: 0;
     }
-    header h1,
-    header p {
+    header h1 {
       position: relative;
       z-index: 1;
       margin: 0;
+      font-size: 20px;
+      text-align: left;
+    }
+    header p {
+      display: none;
     }
     nav {
       background: #1b5e20;
@@ -68,8 +71,7 @@
 </head>
 <body>
   <header>
-    <h1>Masjid Baiturrohman Ngantang</h1>
-    <p>"Menjadi pusat ibadah, dakwah, dan kegiatan sosial umat"</p>
+    <h1>Masjid Baiturrohman</h1>
   </header>
   <nav>
     <a href="#beranda">Beranda</a>
